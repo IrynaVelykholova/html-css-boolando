@@ -10,7 +10,7 @@ header {
     background-color: #ff6900;
 }
 nav {
-    max-width: 980px;
+    max-width: 1200px;
     width: 100%;
     margin: auto;
     height: 70px;
@@ -33,4 +33,55 @@ header nav svg {
 }
 .third-nav-container {
     justify-content: flex-end;
+}
+hr {
+    color: white;
+    height: 45px;
+    border: none;
+}
+
+/* MAIN  */
+.containers {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+.first-container, .second-container, .third-container {
+    padding: 10px;
+    position: relative;
+}
+.discount {
+    color: red;
+}
+.pic {
+    width: 400px;
+}
+.style-text {
+    font-size: 12px;
+}
+.discount-image {
+    background-color: red;
+    color: white;
+    position: absolute;
+    bottom: 100px;
+    padding: 5px 8px;
+}
+.sustainability {
+    background-color: green;
+    color: white;
+    position: absolute;
+    bottom: 100px;
+    left: 58px;
+    padding: 5px 8px;
+}
+.heart {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    padding: 4px;
+    position: absolute;
+    bottom: 580px;
+    right: 5px;
+
 }
