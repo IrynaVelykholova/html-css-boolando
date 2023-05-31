@@ -75,6 +75,13 @@ hr {
     left: 58px;
     padding: 5px 8px;
 }
+.second-sustainability {
+    background-color: green;
+    color: white;
+    position: absolute;
+    bottom: 100px;
+    padding: 5px 8px;
+}
 .heart {
     background-color: white;
     width: 40px;
@@ -83,5 +90,4 @@ hr {
     position: absolute;
     bottom: 580px;
     right: 5px;
-
 }
