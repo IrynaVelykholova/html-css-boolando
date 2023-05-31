@@ -62,7 +62,8 @@ hr {
 .discount {
     color: red;
 }
-.pic {
+.pic, .hover-imagine {
+    width: 390px;
     width: 390px;
 }
 .style-text {
@@ -100,7 +101,7 @@ hr {
     right: 5px;
 }
 
-.first-pic:hover {
+.first-pic::hover {
     background-image: url(../img/1b.webp);
 }
 
@@ -143,3 +144,36 @@ footer {
     padding-right: 10px;
 }
 
+
+/* HOVER  */
+
+.images {
+    position: relative;
+}
+
+.hover-imagine {
+    display: none;
+}
+
+.images:hover .first-pic {
+    display: none;
+}
+.images:hover .second-pic {
+    display: none;
+}
+.images:hover .third-pic {
+    display: none;
+}
+.images:hover .fourth-pic {
+    display: none;
+}
+.images:hover .fifth-pic {
+    display: none;
+}
+.images:hover .sixth-pic {
+    display: none;
+}
+
+.images:hover .hover-imagine {
+    display: inline-block;
+}
