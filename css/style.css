@@ -21,10 +21,15 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
-header nav span {
-    color: white;
+.gender ul  {
+    display: flex;
 }
-header nav svg {
+.first-nav-container ul li {
+    list-style: none;
+    padding: 4px;
+}
+.first-nav-container ul li a {
+    text-decoration: none;
     color: white;
 }
 
@@ -38,6 +43,9 @@ hr {
     color: white;
     height: 45px;
     border: none;
+}
+.icon {
+    fill: white;
 }
 
 /* MAIN  */
@@ -55,7 +63,7 @@ hr {
     color: red;
 }
 .pic {
-    width: 400px;
+    width: 390px;
 }
 .style-text {
     font-size: 12px;
@@ -88,6 +96,50 @@ hr {
     height: 40px;
     padding: 4px;
     position: absolute;
-    bottom: 580px;
+    bottom: 570px;
     right: 5px;
 }
+
+.first-pic:hover {
+    background-image: url(../img/1b.webp);
+}
+
+
+/* FOOTER  */
+footer {
+    background-color: black;
+}
+.div-footer {
+    max-width: 1200px;
+    width: 100%;
+    color: white;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.row {
+    height: 35px;
+    color: black;
+}
+.contacts ul li, .info ul li {
+    list-style: none;
+}
+.info ul {
+    display: flex;
+}
+.info ul li a {
+    text-decoration: none;
+    color: white;
+    padding-top: 10px;
+    padding-right: 7px;
+    display: inline-block;
+}
+
+.contacts ul {
+    display: flex;
+}
+.contacts ul li {
+    padding-top: 8px;
+    padding-right: 10px;
+}
+
